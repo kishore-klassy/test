@@ -1,0 +1,28 @@
+<html>
+<style>
+.flex-container{
+background-color:blue;
+display :flex;
+justify-content:flex-end;
+}
+.flex-container > div{
+width : 100px;
+line-heigth : 100px;
+background-color:red ;
+text-align:center;
+padding :60px;
+font-size : 40px;
+margin :10px;
+
+}
+
+</style>
+<body>
+
+<div class="flex-container">
+	<div>kishore</div>
+	<div>dinesh</div>
+	<div>kumar</div>
+</div>
+</body>
+</html>
